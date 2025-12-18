@@ -15,7 +15,7 @@ jobs:
       - name: Azure login using federated credential
         uses: azure/login@v1
         with:
-          client-id: 9f015f48-1f21-4e71-95a3-35d512e10255      # Replace with your managed identity client ID
+          client-id: b21ea459-371d-4b04-8eb4-a13816c1f2e8      # Replace with your managed identity client ID
           tenant-id: fdd066e1-ee37-49bc-b08f-d0e152119b04
           subscription-id: 18fccca1-acd6-4175-8e8e-0c90d700f48e           # Replace with your subscription ID
           enable-AzPSSession: true
